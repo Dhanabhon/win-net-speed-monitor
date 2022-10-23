@@ -6,5 +6,5 @@ namespace WinNetSpeedMonitor
         {
             InitializeComponent();
         }
-    }
-}
+    } // class
+} // namespace

@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using CSDeskBand;
-using CSDeskBand.
 
 namespace WinNetSpeedMonitor
 {

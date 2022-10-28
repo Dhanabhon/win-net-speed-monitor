@@ -12,8 +12,15 @@ namespace WinNetSpeedMonitor
     [ComVisible(true)]
     [Guid("1DB5314E-6AFB-4F31-8C52-0898620C3088")]
     [CSDeskBandRegistration(Name = "WinNetSpeedMonitor", ShowDeskBand = true)]
-    public class NetSpeedDeskBand : CSDeskBand.CSDeskBandWin
+    public class NetSpeedDeskBand
     {
         private static Control _control;
-    }
-}
+
+        public NetSpeedDeskBand()
+        {
+
+        }
+
+        //protected override Control Control => _control;
+    } // class
+} // namespace
